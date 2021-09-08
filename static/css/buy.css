@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-box{
+    display: flex;
+}
+
+.nav, ul , a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    justify-content: space-between;
+    font-size: x-large;
+    padding-left: 52px;
+    color: black;
+}
+
+.logo{
+    margin-left: -75px;
+}
+
+.logo-img{
+    width: 100%;
+    height: 70px;
+}
+
+#brand-name{
+    margin-left: 65px;
+}
+
+.sales-hrs{
+    display: flex;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+
+/* Footer Here */
+
+footer{
+    position: relative;
+}
+
+footer > img{
+    width: 100%;
+    filter: grayscale(100%) contrast(40%) brightness(200%);
+}
+
+
+.footer-content{        
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#brand-name-f{
+    margin-top: -23px;
+}
+
+.footer-nav{
+    display: flex;
+    margin-right: 65px;
+}
+
+.foot-ul{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    font-size: large;
+    padding-left: 52px;
+    color: black;
+} 
+
+.logo-footer{
+    margin: 32px 47px;
+    width: 66%;
+    height: 70px;
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.a-li{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+hr{ 
+    display: block;
+    padding-left: 50%;
+    height: 2px;
+    width: 1000px;
+    color: black;
+    background-color: rgb(131, 127, 127);
+}
+
+.rule{
+    position: absolute;
+    top: 0;
+    
+}
+
+.follow{
+    display: flex;
+    justify-content: end;
+    margin: 14px -233px;
+}
+
+.copyright{
+    margin: -38px 0px 11px 79px;
+}
+
+.foot-ul > li > a{
+    font-size: 17px;
+}
