@@ -133,21 +133,38 @@ hr{
 }
 
 /* gallery here */
-
-
-.img-car{
-    /* width: 58%; */
-    display: flex;
-    position: relative;
-    justify-content: center;
+.gallery{
 }
-.img-car > img{
-    border-radius: 3px;
-    border: 2px solid black;
+.gallery > img{
+    cursor: pointer;
 }
 
+.img-in{
+    display: inline;
+    width: auto;
+}
+.gallery .img-in img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  margin: 2em;
+  margin-left: 3em;
+  opacity: 0.8;
+/*   
+display: flex;
+justify-content: center;
+align-items: center; */
+}
+.gallery .img-in:hover img{
+    transform: scale(1.2);
+    opacity: 1;
+}
 .img-car-1{
     width: 42%;
+    transform: translateX(125px) translateZ(0px);
 }
 .img-car-2{
     width: 58%;
