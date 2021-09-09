@@ -107,7 +107,7 @@ hr{
     display: block;
     padding-left: 50%;
     height: 2px;
-    width: 1000px;
+    width: 918px;
     color: black;
     background-color: rgb(131, 127, 127);
 }
@@ -130,4 +130,31 @@ hr{
 
 .foot-ul > li > a{
     font-size: 17px;
+}
+
+/* gallery here */
+
+
+.img-car{
+    /* width: 58%; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.img-car > img{
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.img-car-1{
+    width: 42%;
+}
+.img-car-2{
+    width: 58%;
+}
+.img-car-3{
+    width: 50%;
+}
+.img-car-4{
+    width: 40%;
 }

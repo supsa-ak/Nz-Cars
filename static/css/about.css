@@ -107,7 +107,7 @@ hr{
     display: block;
     padding-left: 50%;
     height: 2px;
-    width: 1000px;
+    width: 918px;
     color: black;
     background-color: rgb(131, 127, 127);
 }
@@ -162,7 +162,8 @@ hr{
     /* align-items: center; */
     justify-content: start;
     margin: 30px;
-    padding: 10px;
+    padding: 70px;
+    padding-bottom: 90px;
 }
 
 .about > h5{
@@ -171,7 +172,7 @@ hr{
 }
 
 .about > p{
-    font-size: 30px;
+    font-size: 25px;
     color: grey;
 }
 
@@ -180,6 +181,7 @@ hr{
     align-items: center;
     justify-content: center;
     margin: 50px;
+    margin-top: 119px;
 }
 
 .container > .info > h5{
@@ -188,7 +190,7 @@ hr{
 }
 
 .container > .info > p{
-    font-size: 30px;
+    font-size: 25px;
     color: grey;
     margin-right: 20px;
 }
@@ -198,7 +200,7 @@ hr{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 50px;
+    margin: 200px 250px;
     position: relative;
 }
 
@@ -226,5 +228,5 @@ hr{
     text-align: center;
     padding-top: 70px;
     color: grey;
-    font-size: 20px;
+    font-size: 23px;
 }

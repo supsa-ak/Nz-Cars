@@ -107,7 +107,7 @@ hr{
     display: block;
     padding-left: 50%;
     height: 2px;
-    width: 1000px;
+    width: 918px;
     color: black;
     background-color: rgb(131, 127, 127);
 }
@@ -234,7 +234,7 @@ hr{
     /* border: 2px solid rgb(82, 82, 82); */
     border-radius:  10px;
     width: 20%;
-    height: 500px;
+    height: 385px;
     margin: 50px;
     box-shadow: 5px 10px 10px grey;
     display: flex;
@@ -244,9 +244,9 @@ hr{
     background-color: white;
 }
 
-.card > img{
-    width: 350px;
-    height: 250px;
+.card > img{   
+    width: 224px;
+    height: 151px;
     border-radius: 6px;    
 }
 
