@@ -131,3 +131,150 @@ hr{
 .foot-ul > li > a{
     font-size: 17px;
 }
+
+/* Buy Here */
+
+.front{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 110px;
+}
+
+.front-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.front > h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+
+.front > .front-content > .first{
+    text-align: center;
+    /* box-sizing: content-box; */
+    /* margin: 0 0 0 0 ; */
+    font-size: 30px;
+}
+
+.front > .front-content > .first > p > b{
+    display: block;
+    margin-bottom: 20px;
+}
+.grey{
+    color: grey;
+}
+.mid > img{
+    width: 700px;
+    height: 500px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+
+.front > .front-content > .end > p > b{
+    color: red;
+    /* font-size: 30px; */
+}
+.front > .front-content > .end > p{
+    margin: 20px;
+}
+.front > .front-content > .end {
+    font-size: 30px;
+}
+
+.card-m{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: greenyellow;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.card-m > div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+
+.card-m > div > h5{
+    font-size: large;
+    margin-top: 20px;
+}
+.card-m > div > img{
+    width: 60%;
+    border-radius: 30px;
+}
+
+.card-m > .third-card > img{
+    width: 56% ;
+}
+.deal-head{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    /* background-color: linear rgb(237 255 254); */
+    background-image: linear-gradient(white, rgb(209 255 252) , white);
+}
+.card{
+    /* border: 2px solid rgb(82, 82, 82); */
+    border-radius:  10px;
+    width: 20%;
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 10px 10px grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+}
+
+.card > img{
+    width: 350px;
+    height: 250px;
+    border-radius: 6px;    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info > h3{
+    font-size: 30px;
+}
+.info > .price{
+    color: red;
+}
+
+.info-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.info-card > div{
+    margin: 20px;
+}
+
+.red{
+    color: red;
+}
