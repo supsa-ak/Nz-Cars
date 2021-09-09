@@ -2,123 +2,165 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/contact.css">
-    <title>Contact | Nz Cars</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/contact.css">
+  <title>Contact | Nz Cars</title>
 </head>
 
 <body>
-    <nav>
-        <div class="nav">
-            <div class="logo">
-                <a href="/index.html">
-                    <img class="logo-img" src="static/img/home/logo.png" alt="logo.png">
-                </a>                
-                <a href="/index.html"><h5 id="brand-name">Nz Cars</h5></a>
-            </div>
-            <div class="navigation">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/buy.html">Buy</a></li>
-                    <li><a href="/gallery.html">Gallery</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </div>
+  <nav>
+    <div class="nav">
+      <div class="logo">
+        <a href="/index.html">
+          <img class="logo-img" src="static/img/home/logo.png" alt="logo.png">
+        </a>
+        <a href="/index.html">
+          <h5 id="brand-name">Nz Cars</h5>
+        </a>
+      </div>
+      <div class="navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/buy.html">Buy</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="sales-hrs">Sales Hours: 9AM - 8PM</div>
+  <!-- contact here -->
+  <div class="container">
+    <div class="contact">
+      <h1>Contact Us</h1>
+      <div class="info">
+          <div>
+            <img src="static/img/contact/unread.png" alt="">
+
+          </div>
+          <div class="cont">
+
+            <h2>sales@nzcars.com</h2>
+            <p>The best way to get answer faster.</p>
+          </div> 
+      </div>
+      <div class="info">
+          <div>
+            <img src="static/img/contact/phone-call.png" alt="">
+
+          </div>
+          <div class="cont">
+
+            <h2>(+91) 9999 99999 99</h2>
+            <p>We are happy to help(10am to 10pm).</p>
+          </div>
+
+      </div>
+      <h1>OUR SHOWROOM</h1>
+      <div class="address">
+        <h3>Mumbai Headquarters</h3>
+        <p>A-59, Giriraj Indl Est, Mahakali Caves Rd, Andheri (west)- 122001</p>
+        <h3>Delhi Showroom</h3>
+        <p>5413, New Market, Sadar Bazar</p>
+        <h3>Nashik Studio</h3>
+        <p> Sethis City Plaza, 1st Floor, Opp Kalika Mandir, Old Agra Road</p>
+      </div>
+    </div>
+    <div class="form">
+      <div class="sec-xlg-col-50 form-clmn">
+        <div class="frm-grp cntctfrm-grp">
+          <div class="frm-titles">
+            <h3 class="h4 frm-title">Send us an email</h3>
+            <p>Drop us a line by using the below form</p>
+          </div>
+          <form >
+            <fieldset>
+              <div >
+                <div ><input type="text" placeholder="Your Name*" name="coname" required=""></div>
+              </div>
+              <div >
+                <div class="inputgrp"><input type="text" placeholder="Location*" name="location" required=""></div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <div>
+                <div class="inputgrp"><input type="email" placeholder="Email*" name="coemail" required=""></div>
+              </div>
+              <div>
+                <div class="inputgrp"><input type="tel" placeholder="Phone" name="cophone"
+                    title="Please enter a valid mobile number" pattern="[1-9]{1}[0-9]{9}" required=""></div>
+              </div>
+            </fieldset>
+            <fieldset >
+              <div class="sec-md-col-100">
+                <div class="inputgrp"><textarea placeholder="Message*" name="socomment" required=""></textarea></div>
+              </div>
+            </fieldset>
+            <fieldset >
+              <div >
+                <div >
+                  <div style="width: 304px; height: 78px;">
+                    <div>
+                    </div><textarea 
+                      style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+          </form>
         </div>
-    </nav>
-    <div class="sales-hrs">Sales Hours: 9AM - 8PM</div>
-<!-- contact here -->
-<div class="container">
-    <form action="/action_page.php">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">First Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
       </div>
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Last Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Country</label>
-      </div>
-      <div class="col-75">
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <input type="submit" value="Submit">
-    </div>
-    </form>
   </div>
-<!-- footer here -->
-    <footer>
-        <img src="static/img/home/footer-audi.jpg" alt="">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <div class="logo logo-name">
-                    <a href="/index.html">
-                        <img class="logo-img logo-footer" src="static/img/home/footer-logo.png" alt="logo.png">
-                    </a>
-                    <a href="/index.html">
-                        <h5 id="brand-name-f">Nz Cars</h5>
-                    </a>
-                </div>
-            </div>
-            <div class="footer-nav">
-                <div class="company">                    
-                    <ul class="foot-ul">
-                        <li><a class="a-li" href="">Company</a></li> 
-                        <li><a href="/about.html">About Us</a></li>
-                        <li><a href="/contact.html">Contact Us</a></li>
-                        <li><a href="/">History</a></li>
-                    </ul>
-                </div>
-                <div class="contact">
-                    
-                    <ul class="foot-ul">
-                        <li><a class="a-li" href="">Contact</a></li>  
-                        <li><a href="/about.html">Know More</a></li>
-                        <li><a href="/">Share</a></li>
-                        <li><a href="/">Map</a></li>
-                    </ul>
-                </div>
-            </div>
+  <!-- footer here -->
+  <footer>
+    <img src="static/img/home/footer-audi.jpg" alt="">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <div class="logo logo-name">
+          <a href="/index.html">
+            <img class="logo-img logo-footer" src="static/img/home/footer-logo.png" alt="logo.png">
+          </a>
+          <a href="/index.html">
+            <h5 id="brand-name-f">Nz Cars</h5>
+          </a>
         </div>
-        <div class="rule">
-            <div style="height: 300px;"></div>
-            <div class="copyright">
-                Copyright &copy; 2020-2021 &nbsp;|&nbsp; Nz Cars
-            </div>
-            <hr>
-            <div class="follow">
-                <div>Follow :</div>
-            </div>
+      </div>
+      <div class="footer-nav">
+        <div class="company">
+          <ul class="foot-ul">
+            <li><a class="a-li" href="">Company</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+            <li><a href="/">History</a></li>
+          </ul>
         </div>
-    </footer>
+        <div class="contact">
+
+          <ul class="foot-ul">
+            <li><a class="a-li" href="">Contact</a></li>
+            <li><a href="/about.html">Know More</a></li>
+            <li><a href="/">Share</a></li>
+            <li><a href="/">Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="rule">
+      <div style="height: 300px;"></div>
+      <div class="copyright">
+        Copyright &copy; 2020-2021 &nbsp;|&nbsp; Nz Cars
+      </div>
+      <hr>
+      <div class="follow">
+        <div>Follow :</div>
+      </div>
+    </div>
+  </footer>
 
 
 
