@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 .flex-box{
     display: flex;
 }
@@ -67,7 +69,9 @@
     align-items: center;
     padding-bottom: 139px;
 }
-
+.card-1 > *{
+    margin: 0 4.1rem;
+}
 .card-1 > img{
     width: 44%;
     height: 50%;
@@ -93,6 +97,15 @@
     flex-grow: unset;
 }
 
+.f-1{
+    margin-left: -2px;
+    width: 26.2rem;
+}
+.f-2{
+    
+    margin-left: 47px;
+    width: 26.2rem;
+}
 .feature-in > p{
     font-size: 30px;
 }
