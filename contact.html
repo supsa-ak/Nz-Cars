@@ -37,27 +37,18 @@
     <div class="contact">
       <h1>Contact Us</h1>
       <div class="info">
-          <div>
-            <img src="static/img/contact/unread.png" alt="">
-
-          </div>
-          <div class="cont">
-
-            <h2>sales@nzcars.com</h2>
-            <p>The best way to get answer faster.</p>
-          </div> 
+        <img id="img-1" src="static/img/contact/unread.png" alt="">
+        <div class="cont">
+          <h2>sales@nzcars.com</h2>
+          <p>The best way to get answer faster.</p>
+        </div>
       </div>
       <div class="info">
-          <div>
-            <img src="static/img/contact/phone-call.png" alt="">
-
-          </div>
-          <div class="cont">
-
-            <h2>(+91) 9999 99999 99</h2>
-            <p>We are happy to help(10am to 10pm).</p>
-          </div>
-
+        <img id="img-2" src="static/img/contact/phone-call.png" alt="">
+        <div class="cont">
+          <h2>(+91) 9999 99999 99</h2>
+          <p>We are happy to help(10am to 10pm).</p>
+        </div>
       </div>
       <h1>OUR SHOWROOM</h1>
       <div class="address">
@@ -69,52 +60,23 @@
         <p> Sethis City Plaza, 1st Floor, Opp Kalika Mandir, Old Agra Road</p>
       </div>
     </div>
-    <div class="form">
-      <div class="sec-xlg-col-50 form-clmn">
-        <div class="frm-grp cntctfrm-grp">
-          <div class="frm-titles">
-            <h3 class="h4 frm-title">Send us an email</h3>
-            <p>Drop us a line by using the below form</p>
-          </div>
-          <form >
-            <fieldset>
-              <div >
-                <div ><input type="text" placeholder="Your Name*" name="coname" required=""></div>
-              </div>
-              <div >
-                <div class="inputgrp"><input type="text" placeholder="Location*" name="location" required=""></div>
-              </div>
-            </fieldset>
-            <fieldset>
-              <div>
-                <div class="inputgrp"><input type="email" placeholder="Email*" name="coemail" required=""></div>
-              </div>
-              <div>
-                <div class="inputgrp"><input type="tel" placeholder="Phone" name="cophone"
-                    title="Please enter a valid mobile number" pattern="[1-9]{1}[0-9]{9}" required=""></div>
-              </div>
-            </fieldset>
-            <fieldset >
-              <div class="sec-md-col-100">
-                <div class="inputgrp"><textarea placeholder="Message*" name="socomment" required=""></textarea></div>
-              </div>
-            </fieldset>
-            <fieldset >
-              <div >
-                <div >
-                  <div style="width: 304px; height: 78px;">
-                    <div>
-                    </div><textarea 
-                      style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
+    <form>
+      <h1 class="h4 frm-title">Send us an email</h1>
+      <h4>Drop us a line by using the below form</h4>
+      <fieldset class="sm">
+        <input type="text" placeholder="Your Name*" name="coname" required="">
+        <input type="text" placeholder="Location*" name="location" required="">
+      </fieldset>
+      <fieldset class="sm">
+        <input type="email" placeholder="Email*" name="coemail" required="">
+        <input type="tel" placeholder="Phone*" name="cophone" title="Please enter a valid mobile number"
+          pattern="[1-9]{1}[0-9]{9}" required="">
+      </fieldset>
+      <fieldset class="message">
+        <textarea placeholder="Message*" name="socomment" required=""></textarea>
+      </fieldset>
+      <button class="submit" type="submit">Submit</button>
+    </form>
   </div>
   <!-- footer here -->
   <footer>
