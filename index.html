@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,17 @@
     <link rel="icon" type="image/png" href="static/img/home/favicon.png">
     <title>Home | Nz Cars</title>
 </head>
+
 <body>
     <nav>
         <div class="nav">
             <div class="logo">
                 <a href="/Nz-Cars/">
                     <img class="logo-img" src="static/img/home/logo.png" alt="logo.png">
-                </a>                
-                <a href="/Nz-Cars/"><h5 id="brand-name">Nz Cars</h5></a>
+                </a>
+                <a href="/Nz-Cars/">
+                    <h5 id="brand-name">Nz Cars</h5>
+                </a>
             </div>
             <div class="navigation">
                 <ul>
@@ -87,7 +91,7 @@
         <div>
             <p>View Available Cars</p>
             <form action="templates/gallery.html">
-                <button class="gallery" >Gallery</button>
+                <button class="gallery">Gallery</button>
             </form>
         </div>
     </div>
@@ -105,18 +109,18 @@
                 </div>
             </div>
             <div class="footer-nav">
-                <div class="company">                    
+                <div class="company">
                     <ul class="foot-ul">
-                        <li><a class="a-li" href="#">Company</a></li> 
+                        <li><a class="a-li" href="#">Company</a></li>
                         <li><a href="templates/about.html">About Us</a></li>
                         <li><a href="templates/contact.html">Contact Us</a></li>
                         <li><a href="#">History</a></li>
                     </ul>
                 </div>
                 <div class="contact">
-                    
+
                     <ul class="foot-ul">
-                        <li><a class="a-li" href="templates/contact.html">Contact</a></li>  
+                        <li><a class="a-li" href="templates/contact.html">Contact</a></li>
                         <li><a href="templates/about.html">Know More</a></li>
                         <li><a href="#">Share</a></li>
                         <li><a href="#">Map</a></li>
@@ -133,8 +137,27 @@
             <div class="follow">
                 <div>Follow :</div>
             </div>
+            <p class="footer-heart">
+                Made with
+                <g-emoji class="g-emoji" alias="heart"
+                    fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+                    <img class="emoji" alt="heart" height="20" width="20"
+                        src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+                </g-emoji>
+                by
+                <a href="https://github.com/supsa-ak" target="_blank" style="display:inline; font-size:unset; padding-left: 0; margin: 0;">
+                    Sarthak Kalpande
+                </a>
+                <i class="fab fa-github" style="margin-left: 7px;"></i>
+            </p>
         </div>
     </footer>
+    <script>
+        console.info(
+            'Made with %c♥%c by Sarthak Kalpande',
+            'color: #e25555', 'color: unset'
+        );
+    </script>
 </body>
 
 </html>
